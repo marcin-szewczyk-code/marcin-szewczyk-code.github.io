@@ -1,18 +1,44 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 - type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  icon: fas fa-envelope
+  url: mailto:twoj.email@domena.pl
+  label: Email
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: linkedin
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/marcin-szewczyk/
+  label: LinkedIn
+
+- type: website
+  icon: fab fa-github
+  url: https://github.com/marcin-szewczyk-code
+  label: GitHub
+  
+- type: orcid
+  icon: fas fa-id-card
+  url: https://orcid.org/0000-0003-3699-5559
+  label: ORCID
+
+- type: website
+  icon: fas fa-globe
+  url: https://www.ee.pw.edu.pl/~szewczyk/
+  label: Faculty page
+
+
+#- type: github
+#  icon: "fab fa-github"
+
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
+
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
+
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

@@ -1,0 +1,91 @@
+# ==================================================================================
+# Locale: Polski
+# Theme: Chirpy
+# ==================================================================================
+
+tabs:
+  home: Strona główna
+  categories: Kategorie
+  tags: Tagi
+  archives: Archiwum
+  about: O mnie
+
+search:
+  hint: Szukaj
+  cancel: Anuluj
+  no_results: Brak wyników
+
+panel:
+  lastmod: Ostatnie aktualizacje
+  trending_tags: Popularne tagi
+  toc: Spis treści
+
+post:
+  written_by: Autor
+  posted: Opublikowano
+  updated: Zaktualizowano
+  words: słów
+  pageview_measure: wyświetleń
+  read_time:
+    unit: min
+    prompt: czytania
+  relate_posts: Powiązane wpisy
+  share: Udostępnij
+  button:
+    next: Następny
+    previous: Poprzedni
+
+page:
+  error:
+    404:
+      title: 404 – Nie znaleziono strony
+      subtitle: Strona, której szukasz, nie istnieje.
+      back_link: Wróć na stronę główną
+
+categories:
+  category_measure: kategorii
+  post_measure: wpisów
+
+tag:
+  tag_measure: tagów
+
+archives:
+  year: Rok
+  month: Miesiąc
+  day: Dzień
+  posts: Wpisy
+
+pagination:
+  older: Starsze
+  newer: Nowsze
+
+footer:
+  powered_by: Zasilane przez
+  theme: Motyw
+  copyrights: Wszelkie prawa zastrzeżone
+
+#meta:
+#  title: Blog
+#  description: Blog oparty na Jekyll i motywie Chirpy
+
+copyright:
+  author: Autor
+  license: Licencja
+
+button:
+  copy: Kopiuj
+  copied: Skopiowano!
+  close: Zamknij
+
+tooltip:
+  copy:
+    success: Skopiowano!
+    fail: Nie udało się skopiować
+
+notification:
+  update_available: Dostępna jest nowa wersja
+
+date:
+  long: "%d %B %Y"
+  short: "%d.%m.%Y"
+

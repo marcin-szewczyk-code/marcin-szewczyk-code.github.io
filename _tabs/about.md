@@ -4,5 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Zacząłem bawić się Internetem jakieś 30 lat temu, w pierwszej polskiej domenie: ```fuw.edu.pl```, czyli w miejscu, gdzie powstawał polski Internet. Ciekawie było tam wtedy być.
+
+Potem trochę bawiłem się stronami statycznymi i dynamicznymi -- najpierw trochę na ```fuw.edu.pl```, potem bardziej na ```ee.pw.edu.pl```. Strony statyczne robiłem w ```HTML-u```, a dynamiczne w ```C++``` i wysyłałem je do przeglądarki przez ```CGI```. Później przepisywałem to w ```PHP``` i dokładałem ```CSS```. Był też ```LaTeX```.
+
+Z tego co pamiętam, to nie było wtedy Google i paru innych rzeczy.
+
+Teraz trochę wracam do tej zabawy.

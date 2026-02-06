@@ -1,12 +1,14 @@
 # The Site Configuration
 
+lastmod: false
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: pl
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: "Europe/Warsaw"
@@ -14,28 +16,31 @@ timezone: "Europe/Warsaw"
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Personal blog of Marcin Szewczyk # the main title
+#title: Notatki z dłubania # the main title
 
-tagline: Personal blog of Marcin Szewczyk, built with Jekyll (Chirpy theme) and published via GitHub Pages. # it will display as the subtitle
+tagline: Notatki i zapiski. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
+
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://marcin-szewczyk-code.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: marcin-szewczyk-code # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+#twitter:
+#  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Marcin Szewczyk
   email: # opcjonalnie, możesz zostawić puste albo usunąć linię
+  github: marcin-szewczyk-code
+  linkedin: marcin-szewczyk
   links:
     # The first element serves as the copyright owner's link
     - http://marcinszewczyk.net/
@@ -103,7 +108,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar.jfif
+avatar: /assets/img/avatar_tatry.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
