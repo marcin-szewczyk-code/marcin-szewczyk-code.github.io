@@ -7,9 +7,9 @@ tabs:
     url: /categories/
     icon: folder
 
-  # - title: Tags
-  #   url: /tags/
-  #   icon: tags
+  - title: Tags
+    url: /tags/
+    icon: tags
 
   - title: Archives
     url: /archives/

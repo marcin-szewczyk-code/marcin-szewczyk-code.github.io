@@ -1,11 +1,11 @@
 ---
-title: "LaTeX w Jekyllu: wzory matematyczne"
+title: "LaTeX w Jekyllu: wzory matematyczne MathJax"
 date: 2026-02-06 09:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, latex, setup]
 ---
 
-W ```Jekyllu``` jest parę fajnych rzeczy. Jedną z nich jest wtyczka do umieszczania wzorów ```LaTeX``` w plikach ```markdown```.
+W ```Jekyllu``` jest parę fajnych rzeczy, a jedną z nich jest wtyczka do umieszczania wzorów ```LaTeX``` w plikach ```markdown```.
 
 Ponoć najpopularniejszy jest ```MathJax```, więc go używam.
 

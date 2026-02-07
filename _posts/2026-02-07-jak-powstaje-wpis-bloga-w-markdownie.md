@@ -5,7 +5,7 @@ categories: [Blog]
 tags: [blog, jekyll, hello-world]
 ---
 
-W ```Jekyll-u``` jest parę fajnych rzeczy, a pierwsza to, że blog jest statyczny i budowany z wpisów robionych w języku ```Markdown```. Pokażę tutaj przykład wpisu ```hello-world```, czyli kilka elementów, których najbardziej używam.
+W ```Jekyllu``` jest parę fajnych rzeczy, a pierwsza to, że blog jest statyczny i budowany z wpisów robionych w języku ```Markdown```. Pokażę tutaj przykład wpisu ```hello-world```, czyli kilka elementów, których najbardziej używam.
 
 Treść bloga budowana jest przez Jekylla jako strona statyczna wystawiana przez GitHuba. To, co edytuję, to zwykłe pliki tekstowe w ```markdownie```, z prostą składnią. Poniżej pokazuję podstawowe elementy, których używam: nagłówki, listy, kody i linki. Tyle wystarczy, żeby napisać i opublikować wpis. Do tego dochodzą metadane z tytułem, datą, kategorią i tagami.
 
