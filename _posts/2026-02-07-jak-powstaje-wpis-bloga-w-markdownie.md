@@ -1,5 +1,5 @@
 ---
-title: "Jak powstaje wpis bloga w markdownie (hello-world)"
+title: "Jekyll: jak powstaje wpis w Markdown (hello world)"
 date: 2026-02-06 08:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, hello-world]

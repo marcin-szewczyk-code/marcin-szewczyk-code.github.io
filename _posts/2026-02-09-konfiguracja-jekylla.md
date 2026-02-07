@@ -1,5 +1,5 @@
 ---
-title: "Konfiguracja ustawień bloga Jekyll"
+title: "Jekyll: konfiguracja w plikach YAML i innych"
 date: 2026-02-06 10:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, setup]
@@ -41,7 +41,7 @@ Zmiana pliku ```_config.yml``` wymaga zatrzymania (```Ctrl-C```) i restartu serw
  
 ```bash
 Ctrl-C
-bundle exec jekyll serve --baseurl ""
+bundle exec jekyll serve
 ```
 
 ## Potrzebne drobiazgi

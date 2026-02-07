@@ -1,5 +1,5 @@
 ---
-title: "LaTeX w Jekyllu: wzory matematyczne MathJax"
+title: "LaTeX w Jekyllu: MathJax do wzorów matematycznych"
 date: 2026-02-06 09:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, latex, setup]

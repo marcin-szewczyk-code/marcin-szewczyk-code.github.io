@@ -1,5 +1,5 @@
 ---
-title: "Jak zbudować blog taki jak ten"
+title: "Jekyll + GitHub Pages: jak zbudować blog taki jak ten"
 date: 2026-02-06 07:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, setup]
@@ -16,31 +16,32 @@ Blog zbudowany jest na Jekyll, z motywem Chirpy (można potem zmienić), opublik
 
 Czego potrzebujemy na początek i jak to wygląda u mnie:
 - **GitHub login**: ```marcin-szewczyk-code``` (konto na GitHubie)
-- **Repo name**: ```blog``` (repo na GitHubie)
-- **Local directory**: ```blog``` (folder na lokalnym komputerze)
-- **GitHub repo URL**: [https://github.com/marcin-szewczyk-code/blog](https://github.com/marcin-szewczyk-code/blog)
-- **Site URL**: [https://marcin-szewczyk-code.github.io/blog](https://marcin-szewczyk-code.github.io/blog)
-- **Pages type**: project page (GitHub Actions dla repo na GitHubie)
+- **Repo name**: ```marcin-szewczyk-code.github.io``` (repo na GitHubie)
+- **Local directory**: ```marcin-szewczyk-code.github.io``` (folder na lokalnym komputerze)
+- **GitHub repo URL**: [https://github.com/marcin-szewczyk-code/marcin-szewczyk-code.github.io](https://github.com/marcin-szewczyk-code/marcin-szewczyk-code.github.io)
+- **URL techniczny (GitHub Pages)**: [https://marcin-szewczyk-code.github.io/](https://marcin-szewczyk-code.github.io/)
+- **Site URL (custom domain, ustawiony w DNS u operatora domeny)**: [https://blog.marcinszewczyk.net/](https://blog.marcinszewczyk.net/)
+- **Pages type**: user page (GitHub Actions dla repo na GitHubie)
 
-Mając konto na GitHubie tworzymy tam repo ```blog```, potem wgrywamy do niego szablon startowy ```Chirpy```.
+Mając konto na GitHubie tworzymy tam repo ```marcin-szewczyk-code.github.io```, potem wgrywamy do niego szablon startowy ```Chirpy```.
 
 Jak to zrobić:
-- na GitHubie tworzymy repo ```blog```
+- na GitHubie tworzymy repo ```marcin-szewczyk-code.github.io```
 - otwieramy repo szablonu Chirpy Starter: [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
 - klikamy ```Use this template``` → ```Create a new repository```
-- ustawiamy ```Owner: marcin-szewczyk-code```, ```Repository name: blog```, ```Public``` → Create repository```
+- ustawiamy ```Owner: marcin-szewczyk-code```, ```Repository name: marcin-szewczyk-code.github.io```, ```Public``` → Create repository```
 
-Wchodzimy następnie w ustawienia repo ```blog``` i ustawiamy: ```Settings repo → Pages → Build and deployment: GitHub Actions```.
+Wchodzimy następnie w ustawienia repo ```marcin-szewczyk-code.github.io``` i ustawiamy: ```Settings repo → Pages → Build and deployment: GitHub Actions```.
 
-Mamy teraz repo ```blog``` na GitHubie, a w nim zawartość ```chirpy-starter```. Repo jest tutaj: [https://github.com/marcin-szewczyk-code/blog](https://github.com/marcin-szewczyk-code/blog), a gotowy blog jest tutaj: [https://marcin-szewczyk-code.github.io/blog](https://marcin-szewczyk-code.github.io/blog). Gotowy blog to wynik tego, co GitHub Pages buduje i publikuje na podstawie zawartości repo.
+Mamy teraz repo ```marcin-szewczyk-code.github.io``` na GitHubie, a w nim zawartość ```chirpy-starter```. Repo jest tutaj: [https://github.com/marcin-szewczyk-code/marcin-szewczyk-code.github.io](https://github.com/marcin-szewczyk-code/marcin-szewczyk-code.github.io), a gotowy blog jest tutaj: [https://blog.marcinszewczyk.net/](https://blog.marcinszewczyk.net/) (technicznie też pod adresem [https://marcin-szewczyk-code.github.io/](https://marcin-szewczyk-code.github.io)). Gotowy blog to wynik tego, co GitHub Pages buduje i publikuje na podstawie zawartości repo.
 
 ### Folder lokalny
 
-Ściągamy (klonujemy) repo do lokalnego folderu ```blog``` i pracujemy dalej lokalnie w tym folderze:
+Ściągamy (klonujemy) repo do lokalnego folderu ```marcin-szewczyk-code.github.io``` i pracujemy dalej lokalnie w tym folderze:
 
 ```bash
-git clone https://github.com/marcin-szewczyk-code/blog.git blog
-cd blog
+git clone https://github.com/marcin-szewczyk-code/marcin-szewczyk-code.github.io.git marcin-szewczyk-code.github.io
+cd marcin-szewczyk-code.github.io
 ```
 
 Pozostaje konfiguracja szablonu Chirpy, stworzenie pierwszego wpisu i wypchnięcie na Gita.
@@ -50,8 +51,8 @@ Pozostaje konfiguracja szablonu Chirpy, stworzenie pierwszego wpisu i wypchnięc
 Podstawowa konfiguracja zapisana jest w pliku ```_config.yml```.
 
 Na początek ustawiamy podstawowe rzeczy, potem możemy zrobić resztę:
-- ```url: "https://marcin-szewczyk-code.github.io"``` -- domena GitHub Pages dla konta ```marcin-szewczyk-code``` na GitHubie.
-- ```baseurl: "/blog"``` -- szczegół, ale ważny.
+- ```url: "https://blog.marcinszewczyk.net"``` -- docelowy adres bloga (custom domain w GitHub Pages dla konta ```marcin-szewczyk-code``` na GitHubie + DNS u operatora domeny).
+- ```baseurl: ""``` -- blog jest w root.
 - ```timezone: "Europe/Warsaw"``` -- wiadomo.
 - ```lang: "pl"``` -- żeby Chirpy brał język interfejsu tam, gdzie ma tłumaczenia, resztę zrobimy ręcznie.
 
@@ -71,13 +72,12 @@ bundle install
 Uruchamiam Jekylla:
 
 ```bash
-bundle exec jekyll serve --baseurl ""
+bundle exec jekyll serve
 ```
-Blog działa teraz lokalnie pod adresem: [https://127.0.0.1:4000/blog](https://127.0.0.1:4000/blog).
+
+Blog działa teraz lokalnie pod adresem: [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
 
 Zmiany w plikach są widoczne na bieżąco (nie wszystkich, ale kluczowych).
-
-Opcja ```--baseurl ""``` pozwala nie wpisywać ```/blog``` w URL.
 
 ### Wypchnięcie na Gita
 
@@ -98,11 +98,11 @@ git add . && git commit -m "Update local changes" && git push
 
 ### Dodatkowe automatyzacje workflow
 
-Czyszczenie cache i restart Jekylla:
+Czyszczenie cache i restart Jekylla (polecenie dla Windows / PowerShell):
 
 ```bash
 Ctrl-C
-rmdir /s /q .jekyll-cache & rmdir /s /q _site & bundle exec jekyll serve --baseurl ""
+rmdir /s /q .jekyll-cache & rmdir /s /q _site & bundle exec jekyll serve
 ```
 
 ## Podsumowanie
