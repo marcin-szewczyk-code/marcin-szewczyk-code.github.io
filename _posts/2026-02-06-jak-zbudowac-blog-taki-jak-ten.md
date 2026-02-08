@@ -1,5 +1,5 @@
 ---
-title: "Jekyll + GitHub Pages: jak zbudować blog taki jak ten"
+title: "Blog Jekyll (1/4): Jak zbudować blog Jekyll na GitHub Pages"
 date: 2026-02-06 07:00:00 +0100
 categories: [Blog]
 tags: [blog, jekyll, setup]
