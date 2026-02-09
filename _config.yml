@@ -12,6 +12,7 @@
 url: "https://marcinszewczyk.net"
 baseurl: ""
 
+future: true
 
 lastmod: false
 
