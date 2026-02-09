@@ -82,10 +82,10 @@ Formatowanie tekstu: **pogrubienie**, *pochylenie (kursywa)*,
 
 ### Linki
 
-Tak robi się [taki link](http://marcinszewczyk.net/):
+Tak robi się [taki link](https://marcinszewczyk.net/):
 
 ```markdown
-[taki link](http://marcinszewczyk.net/)
+[taki link](https://marcinszewczyk.net/)
 ```
 
 ### Nagłówki
