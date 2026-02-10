@@ -3,7 +3,7 @@ title: "Blog Jekyll (5/6): Google Analytics i polityka prywatności"
 post_id: jekyll-google-analytics
 date: 2026-02-10 07:00:00 +0100
 categories: [Blog]
-tags: [blog, jekyll, setup, google-analytics]
+tags: [blog, jekyll, setup]
 ---
 
 Na koniec warto podpiąć **Google Analytics (GA4)**, żeby wiedzieć, czy ten blog czyta też ktoś inny niż autor.
