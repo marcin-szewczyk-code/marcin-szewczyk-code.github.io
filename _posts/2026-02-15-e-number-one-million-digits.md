@@ -23,7 +23,7 @@ GMP (GNU Multiple Precision Arithmetic Library) to biblioteka do obliczeń na li
 ## Obliczanie liczby $e$ z szeregu Taylora
 
 Tutaj zamieściłem dwa kody:
-- bez GMP, zwykłe C, oblicza $e$ do dziesięciu miejsc po przecinku: [e_number.c](/assets/posts/{{ page.post_id }}/e_number.c)
+- zwykłe C, bez GMP, oblicza $e$ do dziesięciu miejsc po przecinku: [e_number.c](/assets/posts/{{ page.post_id }}/e_number.c)
 - analogiczny kod z GMP, oblicza $e$ do miliona miejsc po przecinku: [e_number_gmp.c](/assets/posts/{{ page.post_id }}/e_number_gmp.c)
 
 Wynikiem kodu `e_number.c` jest liczba $e=2.7182818285$. Wynikiem kodu `e_number_gmp.c` jest liczba $e$ z milionem miejsc po przecinku zapisana w pliku [e_number_gmp.txt](/assets/posts/{{ page.post_id }}/e_number_gmp.txt).

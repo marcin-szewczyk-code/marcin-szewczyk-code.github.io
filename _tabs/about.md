@@ -13,3 +13,5 @@ Z tego co pamiętam, to nie było wtedy Google i paru innych rzeczy.
 Teraz trochę wracam do tej zabawy.
 
 Ten blog to miejsce na moje notatki o kodach, matematyce i symulacjach.
+
+Możliwe, że będę tu umieszczał wpisy w wolnych chwilach.

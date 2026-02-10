@@ -18,7 +18,7 @@ Dlatego Windows jest u mnie głównym systemem roboczym.
 Przeszkadzacze, które wyłączam:
 - autostart
 - powiadomienia
-- odciągacze uwagi (news, widgety, sugestie)
+- odciągacze uwagi (news, widgety, sugestie, wszystko co się ,,samo'' rusza)
 
 Uzupełnię tę sekcję jak będę konfigurował Windows w nowym laptopie.
 
