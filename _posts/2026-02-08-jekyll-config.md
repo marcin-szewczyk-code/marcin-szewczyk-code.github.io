@@ -1,5 +1,5 @@
 ---
-title: "Blog Jekyll (3/5): Konfiguracja bloga w Jekyllu – pliki YAML, HTML i CSS"
+title: "Blog Jekyll (3/6): Konfiguracja bloga w Jekyllu – pliki YAML, HTML i CSS"
 post_id: jekyll-config
 date: 2026-02-08 07:00:00 +0100
 categories: [Blog]

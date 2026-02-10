@@ -1,7 +1,7 @@
 ---
 title: "Środowisko (1/N): Windows – dlaczego, co wyłączam i co dodaję"
 post_id: work-environment-windows
-date: 2026-02-11 07:00:00 +0100
+date: 2026-02-12 07:00:00 +0100
 categories: [Environment]
 tags: [windows, environment, setup]
 ---

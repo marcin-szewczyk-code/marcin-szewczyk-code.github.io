@@ -1,7 +1,7 @@
 ---
 title: "SolidWorks: Getting started"
 post_id: solidworks-getting-started
-date: 2026-02-16 07:00:00 +0100
+date: 2026-02-17 07:00:00 +0100
 categories: [Tools]
 tags: [solidworks, cad, getting-started, certification]
 ---
@@ -61,7 +61,7 @@ Następnie można przejść do bezpośredniego przygotowania do egzaminu CSWA (e
 
 ## Egzaminy
 
-Żeby przystąpić do egzaminu certyfikacyjnego (zarówno próbnego, jak i końcowego), konieczne jest uruchomienie zewnętrznej aplikacji TesterPro Client, którą można pobrać tutaj: [https://3dexperience.virtualtester.com/#home](https://3dexperience.virtualtester.com/#home).
+Żeby przystąpić do egzaminu certyfikacyjnego (zarówno próbnego, jak i końcowego), konieczne jest uruchomienie zewnętrznej aplikacji TesterPro Client, którą można pobrać tutaj: [https://3dexperience.virtualtester.com/](https://3dexperience.virtualtester.com/).
 
 Po uruchomieniu aplikacji i utworzeniu konta wyświetlana jest lista egzaminów dostępnych dla użytkownika, np. „CSWA – Sample Exam”.
 

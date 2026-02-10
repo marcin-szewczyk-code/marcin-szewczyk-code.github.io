@@ -1,7 +1,7 @@
 ---
 title: "Środowisko (2/N): Linux pod Windows – MSYS2, MinGW i gcc"
 post_id: work-environment-linux-msys2
-date: 2026-02-12 07:00:00 +0100
+date: 2026-02-13 07:00:00 +0100
 categories: [Environment]
 tags: [linux, environment, setup, msys2]
 ---
