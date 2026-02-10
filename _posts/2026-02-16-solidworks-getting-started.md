@@ -15,7 +15,7 @@ Ten wpis to krótki „getting started” (pierwsze kroki): materiały szkolenio
 ![Solidworks](/assets/posts/{{ page.post_id }}/solidworks-logo.png)
 ***Rys. 1.** SolidWorks.*
 
-## Materiały szkoleniowe
+## Materiały szkoleniowe i certyfikacja
 
 Materiały szkoleniowe dostępne są poprzez stronę: [https://my.solidworks.com/](https://my.solidworks.com/). Po zalogowaniu się należy powiązać konto z posiadaną licencją (np. Home Student Premium).
 
