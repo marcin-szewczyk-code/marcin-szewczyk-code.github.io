@@ -27,7 +27,7 @@ $$
 
 ## Pochodna funkcji wykładniczej $a^x$
 
-Pochodną funkcji wykładniczej $a^x$ obliczamy, korzystając z podanej wyżej definicji pochodnej:
+Pochodną funkcji wykładniczej $a^x$ obliczamy, korzystając wprost z podanej wyżej definicji pochodnej:
 
 $$		
 \frac{\mathrm{d}a^x}{\mathrm{d}x}
@@ -36,7 +36,7 @@ $$
 =a^x\lim_{\Delta x\to 0}{\frac{a^{\Delta x} - 1}{\Delta x}}.
 $$
 
-Zauważamy natychmiast, że granica występująca w powyższym wzorze nie zależy od zmiennej niezależnej $x$, a zależy od $a$. Będzie to istotne dla dalszego badania, dlatego dla uwidocznienia tego faktu zapisujemy:
+Zauważamy natychmiast, że granica występująca w powyższym wzorze (ostatni *limes* po prawej stronie) nie zależy od zmiennej niezależnej $x$, a zależy od $a$. Będzie to istotne dla dalszego badania, dlatego dla uwidocznienia tego faktu zapisujemy powyższy wzór w postaci:
 		
 $$
 \frac{\mathrm{d}a^x}{\mathrm{d}x}
@@ -49,14 +49,22 @@ Zatem pochodna funkcji wykładniczej $a^x$ jest równa tej samej funkcji $a^x$ p
 
 Ścisłe obliczenie granicy $C_a$ wymaga głębszego wglądu w strukturę analizy matematycznej, w szczególności odwołania się do ,,języka'' ciągów i wyrażenia w tym języku liczby $e$. Zamiast tego przedstawię pewne proste oszacowanie *numeryczne*, ponieważ sama intuicja wynikająca z tego oszacowania jest tak interesująca, że warto za nią podążyć.
 
+<!--
+
+\footnote{\label{footnote:granica_axex}~Granicę \eqref{eq:pochodna_axex_2} można łatwo obliczyć, \textit{znając} pochodną funkcji $e^x$, posługując się wówczas rozwinięciem funkcji $e^x$ w~szereg Taylora\index{Taylor} \eqref{eq:zbieznosc_taylora_12} lub, jeszcze prościej, regułą \textit{de l'Hospitala\index{de l'Hospital}} \eqref{eq:delhospital_final}. Obie te metody wymagają jednak posługiwania się pochodną funkcji $e^x$, np. wg reguły de l'Hospitala\index{de l'Hospital}: $\lim_{\Delta x\to 0}{\tfrac{e^{\Delta x} - 1}{\Delta x}}=\lim_{\Delta x\to 0}{\tfrac{(e^{\Delta x} - 1)'_{\Delta x}}{(\Delta x)'_{\Delta x}}}=\lim_{\Delta x\to 0}{\tfrac{e^{\Delta x}}{1}}=1$.}.
+
+-->
+
 ***Tab. 1.** Wartości stałej $C_a$ obliczone dla $a=2$, $a=3$ oraz dla $2<a<3$, przy określonym $\Delta x.$*
 ![Wartości stałej $C_a$](/assets/posts/{{ page.post_id }}/tab_ca.png)
       	
 Zauważając, że granica $C_a$ jest funkcją podstawy $a$, w tab. 1 zbadano wartości tej granicy dla $a=2$ oraz $a=3$, a także dla pewnej pośredniej wartości $2<a<3$, obliczając tę granicę dla każdej z tych trzech wartości $a$ i przyjmując coraz mniejsze wartości $\Delta x=10^{-1}, 10^{-2}, \ldots, 10^{-6}$. Dla najmniejszej wartości $\Delta x = 10^{-6}$ obliczone wartości granic $C_a$ różnią się od wartości dowolnie dokładnych (dla $\Delta x\rightarrow0$) na ostatnim miejscu po przecinku (zaznaczonym w tab. 1 podkreśleniem).
 				
-Zauważamy, że przy $\Delta x = 10^{-6}$, dla $a=2$ mamy $C_{a=2}<1$, a dla $a=3$ mamy $C_{a=3}>1$. Ponieważ $C_a$ jest funkcją ciągłą względem $a$ (wzór powyżej), więc pomiędzy krańcami $a=2$ i $a=3$ musi istnieć taka wartość $a$, dla której funkcja $C_{a}$ przyjmuje wartość $1$. Wartość podstawy $a$, przy której stała $C_a$ występująca we wzorze na pochodną funkcji wykładniczej $(a^x)^\prime_x=C_aa^x$ przybiera wartość $1$, *nazywamy* liczbą $e$.
+Zauważamy, że przy $\Delta x = 10^{-6}$, dla $a=2$ mamy $C_{a=2}<1$, a dla $a=3$ mamy $C_{a=3}>1$. Ponieważ $C_a$ jest funkcją ciągłą względem $a$ (wzór powyżej), więc pomiędzy krańcami $a=2$ i $a=3$ *musi* istnieć taka wartość $a$, dla której funkcja $C_{a}$ przyjmuje wartość $1$. 
 
-Jest to liczba niewymierna (czyli taka, której nie można przedstawić w postaci ilorazu liczby całkowitej i liczby całkowitej różnej od zera), wynosząca w przybliżeniu $e\approx 2.7182818284590452$:
+Wartość podstawy $a$, przy której stała $C_a$ występująca we wzorze na pochodną funkcji wykładniczej $(a^x)^\prime_x=C_aa^x$ przybiera wartość $1$, *nazywamy* liczbą $e$.
+
+Jest to liczba niewymierna (czyli taka, której nie można przedstawić w postaci ilorazu liczby całkowitej i liczby całkowitej różnej od zera), wynosząca w przybliżeniu $e\approx 2.7182818284590452\dots$:
 
 $$
 C_{a=e}=\lim_{\Delta x\to 0}{\frac{e^{\Delta x} - 1}{\Delta x}}=1.
@@ -64,7 +72,7 @@ $$
 
 ## Wynik końcowy
 
-Stąd wynika, zgodnie z powyższymi wzorami, że:
+Stąd wynika, zgodnie z powyższymi wzorami, że dla $a=e$ mamy:
 
 $$
 \frac{\mathrm{d}e^x}{\mathrm{d}x}=e^x.
@@ -72,4 +80,4 @@ $$
 
 Czyli pochodna funkcji $e^x$ jest równa samej sobie.
 
-Fakt ten ma wiele doniosłych konsekwencji wykorzystywanych w zastosowaniach teoretycznych, jak i bardzo praktycznych.
+Fakt ten ma wiele doniosłych konsekwencji.
