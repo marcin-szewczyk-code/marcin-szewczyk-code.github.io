@@ -93,14 +93,19 @@ bundle info jekyll-theme-chirpy
 Następnie kopiuję plik stopki `_includes/footer.html` z motywu do projektu:
 
 ```bash
-copy "E:\Ruby34-x64\lib\ruby\gems\3.4.0\gems\jekyll-theme-chirpy-7.4.1\_includes\footer.html" "_includes\footer.html"
+copy ^
+"E:\Ruby34-x64\lib\ruby\gems\3.4.0\gems\jekyll-theme-chirpy-7.4.1\_includes\footer.html" ^
+"_includes\footer.html"
 ```
 
 W pliku `_includes/footer.html` zakomentowuję (`<!-- ... -->`) linię:
 
 {% raw %}
 ```markdown
-{{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+{{ site.data.locales[include.lang].meta
+  | replace: ':PLATFORM', _platform
+  | replace: ':THEME', _theme
+}}
 ```
 {% endraw %}
 
