@@ -85,7 +85,7 @@ Aktualizacja pakietów (jeśli dawno nie była wykonywana):
 ```bash
 pacman -Syu
 ```
-Aktualizacja pakietu:
+Instalacja pakietu:
 
 ```bash
 pacman -S mingw-w64-x86_64-imagemagick
