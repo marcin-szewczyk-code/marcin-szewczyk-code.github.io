@@ -76,16 +76,24 @@ gcc hello.c -o hello
 
 Plik: [hello.c](/assets/posts/{{ page.post_id }}/hello.c).
 
-### Instalacja ImageMagick-a
+### Instalacja ImageMagick
 
-Instalacja [ImageMagick](https://imagemagick.org/) w MSYS2 MSYS:
+Instalacja [ImageMagick](https://imagemagick.org/) w środowisku **MSYS2 MINGW64**.
+
+Aktualizacja pakietów (jeśli dawno nie była wykonywana):
 
 ```bash
 pacman -Syu
 ```
+Aktualizacja pakietu:
 
 ```bash
 pacman -S mingw-w64-x86_64-imagemagick
+```
+
+Sprawdzenie instalacji:
+
+```bash
 magick -version
 ```
 
