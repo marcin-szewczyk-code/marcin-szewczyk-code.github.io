@@ -14,9 +14,9 @@ MSYS2 jest oparte o MinGW, czyli zestaw narzędzi GNU dla Windowsa. Nazwa MinGW 
 
 GNU to projekt dostarczający wolne narzędzia systemowe używane w systemach linuxowych, w tym kompilator gcc dla języka C.
 
-MSYS2 używam jako źródła podstawowych narzędzi linuxowych na Windowsie. Chodzi głównie o terminal z bashem linuxowym oraz kompilator gcc, a przy okazji edytor nano i inne narzędzia linuxowe, jak ImageMagick.
+MSYS2 używam jako źródła podstawowych narzędzi linuxowych na Windowsie. Chodzi głównie o linuxowy terminal z powłoką `bash` oraz kompilator `gcc`, a przy okazji edytor `nano` i inne narzędzia linuxowe, jak `ImageMagick`.
 
-W ten sposób mam mini-Linux pod Windows: środowisko MSYS2, narzędzia MinGW i kompilator gcc.
+W ten sposób mam mini-Linux pod Windows: środowisko MSYS2, narzędzia MinGW i kompilator gcc. Do instalacji pakietów w MSYS2 korzystam z menedżera pakietów `pacman`.
 
 ### Instalacja i konfiguracja MSYS2
 
@@ -75,5 +75,34 @@ gcc hello.c -o hello
 ```
 
 Plik: [hello.c](/assets/posts/{{ page.post_id }}/hello.c).
+
+### Instalacja ImageMagick-a
+
+Instalacja [ImageMagick](https://imagemagick.org/) w MSYS2 MSYS:
+
+```bash
+pacman -Syu
+```
+
+```bash
+pacman -S mingw-w64-x86_64-imagemagick
+magick -version
+```
+
+Przykładowe użycie:
+
+```bash
+magick input.png -gravity center -crop 1:1 -resize 512x512 output.png
+```
+
+## Podsumowanie
+
+Minimalne środowisko z narzędziami unixowymi do pracy pod Windows:
+- MSYS2 (powłoka `bash` + manager pakietów `pacman`)
+- zestaw narzędzi (toolchain) MinGW64
+- kompilator `gcc`
+- edytor `nano`
+- biblioteka GMP
+- ImageMagick
 
 Na początek to wystarczy.
