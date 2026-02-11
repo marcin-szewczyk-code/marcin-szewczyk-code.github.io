@@ -126,6 +126,11 @@ Powyżej tego kodu dodaję definicję zmiennej `_privacy`:
 ```
 {% endraw %}
 
+Efektem jest zmodyfikowana stopka bloga:
+
+![Stopka bloga](/assets/posts/{{ page.post_id }}/footer.png)
+***Rys. 1.** Stopka bloga.*
+
 ## Test zbierania danych
 
 Na koniec testuję w panelu Google Analytics (Reports → Realtime).
