@@ -2,7 +2,7 @@
 
 Ten blog to miejsce na moje notatki o kodach, matematyce i symulacjach.
 
-Repozytorium źródłowe mojego bloga:  
+Repozytorium źródłowe:  
 👉 [blog.marcinszewczyk.net](https://blog.marcinszewczyk.net/)
 
 Pierwszy wpis o genezie bloga:  
@@ -14,7 +14,7 @@ Pierwszy wpis o genezie bloga:
 
 Blog zbudowany jest przy użyciu:
 - generatora statycznych stron Jekyll
-- motywu Chirpy  
+- motywu Chirpy
 - platformy hostingowej GitHub Pages
 - usługi analitycznej Google Analytics
 
