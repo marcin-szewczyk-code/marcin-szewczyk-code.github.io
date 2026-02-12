@@ -31,8 +31,10 @@ Identyfikator **G-XXXXXXXXXX** jest jedyną informacją z Google Analytics 4 wym
 W pliku `_config.yml` dodaję:
 
 ```yml
-google_analytics:
-  id: "G-XXXXXXXXXX"
+# Web Analytics Settings
+analytics:
+  google: 
+    id: "G-XXXXXXXXXX" # fill in your Google Analytics ID
 ```
 
 To wszystko. Motyw **Chirpy** sam generuje odpowiedni kod dla GA4.
