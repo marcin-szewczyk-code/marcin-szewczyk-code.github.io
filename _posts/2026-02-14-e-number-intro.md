@@ -56,7 +56,7 @@ Zatem pochodna funkcji wykładniczej $a^x$ jest równa tej samej funkcji $a^x$ p
 -->
 
 
-***Tab. 1.** Wartości stałej $C_a$ obliczone dla $a=2$, $a=3$ oraz dla $2<a<3$, przy określonym $\Delta x.$*
+***Tab. 1.** Wartości stałej $C_a$ obliczone dla $a=2$, $a=3$ oraz dla $2<a=e<3$, przy określonym $\Delta x.$*
 
 | $\Delta x$ | $C_{a=2}$ | $C_{a=e\approx 2.71828\ldots}$ | $C_{a=3}$ |
 |:--:|--:|--:|--:|
