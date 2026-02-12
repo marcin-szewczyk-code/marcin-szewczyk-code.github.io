@@ -6,7 +6,7 @@ categories: [Blog]
 tags: [blog, jekyll, setup]
 ---
 
-Kolejny krok budowy bloga to konfiguracja ustawień. W Jekyllu większość konfiguracji to edycja plików YAML, a w niektórych przypadkach także HTML i CSS.
+Kolejny krok budowy bloga to konfiguracja ustawień Jekylla. W Jekyllu większość konfiguracji to edycja plików YAML, a w niektórych przypadkach także HTML i CSS.
 
 ## Podstawowa konfiguracja Jekylla (_config.yml)
 
