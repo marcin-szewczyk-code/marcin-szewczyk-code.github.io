@@ -1,5 +1,5 @@
 ---
-title: "SolidWorks: Getting started"
+title: "Tools (1/N): SolidWorks – Getting Started"
 post_id: solidworks-getting-started
 date: 2026-02-17 07:00:00 +0100
 categories: [Tools]
