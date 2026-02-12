@@ -12,21 +12,21 @@ Mówi się, że w IT zmienia się dużo, szybko i często. Zaskakująco dużo je
 
 W tym wpisie pokazuję przykład „Hello World” w pięciu modelach generowania strony:
 
-- statyczny HTML — najprostszy model
-- renderowanie po stronie serwera: Server-Side Rendering (SSR) — podejście klasyczne
+- statyczny HTML – najprostszy model
+- renderowanie po stronie serwera: Server-Side Rendering (SSR) – podejście klasyczne
 - SSR z separacją warstw
-- renderowanie w przeglądarce z wykorzystaniem API: Client-Side Rendering (CSR) + API  — podejście aplikacyjne
+- renderowanie w przeglądarce z wykorzystaniem API: Client-Side Rendering (CSR) + API  – podejście aplikacyjne
 - generowanie strony w czasie budowania projektu: Static Site Generation (SSG)
 
-Pierwsze z tych podejść — klasyczne SSR — stosowałem 20+ lat temu.
+Pierwsze dwa z tych podejść – statyczny HTMI i klasyczne SSR – stosowałem 20+ lat temu.
 
-Ten blog działa w ostatnim modelu — statycznym SSG — i jest w dużym stopniu zautomatyzowany.
+Ten blog działa w ostatnim modelu – statycznym SSG – i jest w dużym stopniu zautomatyzowany.
 
 Do konfiguracji tego bloga potrzebne okazało się rozumienie tych samych podstaw, z których korzystałem 20+ lat temu.
 
 Fundament jest więc wciąż ten sam.
 
-## Statyczny HTML — najprostszy model
+## Statyczny HTML – najprostszy model
 
 To najprostsza możliwa forma strony internetowej. Serwer nie wykonuje żadnego kodu. Przeglądarka pobiera gotowy plik HTML i wyświetla go.
 
@@ -245,4 +245,4 @@ Różne modele odpowiadają na różne potrzeby:
 
 Ten blog działa w modelu SSG. Automatyzacja jest duża, ale fundament pozostaje ten sam – HTML, CSS i JavaScript nadal mają znaczenie. Różni się sposób generowania HTML. Zmieniły się niuanse tych języków w stosunku do 20+ lat temu, ale ich idea pozostała ta sama.
 
-Ciekawe jest też to, że w tym blogu technologia zatoczyła koło — od statycznego HTML do zautomatyzowanego modelu SSG opartego na Jekyllu i GitHubie.
+Ciekawe jest też to, że w tym blogu technologia zatoczyła koło – od statycznego HTML do zautomatyzowanego modelu SSG opartego na Jekyllu i GitHubie.
