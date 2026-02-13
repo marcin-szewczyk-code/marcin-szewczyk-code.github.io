@@ -29,7 +29,7 @@ W przypadku funkcji elementarnych kolejne pochodne $f^{(n)}(0)$ we wzorze Taylor
 $$
 \frac{\mathrm{d}}{\mathrm{d}x}e^x = e^x,
 \frac{\mathrm{d}}{\mathrm{d}x}\cos{x} =-\sin{x},
-\frac{\mathrm{d}}{\mathrm{d}x}\sin{x} =-\cos{x}.
+\frac{\mathrm{d}}{\mathrm{d}x}\sin{x} = \cos{x}.
 $$
 
 Ponieważ funkcja $e^x$ odtwarza swoją postać w kolejnych stopniach pochodnej, $(e^x)^{\prime}_x=e^x$, mamy więc natychmiast ze wzoru Taylora rozwinięcie tej funkcji w szereg potęgowy:
@@ -109,7 +109,7 @@ $$
 		
 gdzie: $(ix)^n=i^nx^n$, $i^{2n}=(i^2)^n = (-1)^n$ oraz $i^{2n+1}=2^{2n} i~= (-1)^ni$.
 
-Dostrzegając w powyższym zapisie szeregi Taylora\index{Taylor} funkcji $\cos x=T_{\cos x}$ oraz $\sin x=T_{\sin x}$, można powyższy wzór zapisać w postaci nazywanej *wzorem Eulera*:
+Dostrzegając w powyższym zapisie szeregi Taylora funkcji $\cos x=T_{\cos x}$ oraz $\sin x=T_{\sin x}$, można powyższy wzór zapisać w postaci nazywanej *wzorem Eulera*:
 		
 $$
 T_{e^{ix}}=T_{\cos x} + i~T_{\sin x}\:\:\Rightarrow\:\:

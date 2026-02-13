@@ -6,7 +6,7 @@ categories: [Tools]
 tags: [solidworks, cad, getting-started, certification]
 ---
 
-SolidWorks to program do komputerowego wspomagania projektowania (CAD, Computer-Aided Design), szeroko stosowany w inżynierii mechanicznej, m.in. w przemyśle elektroenergetycznym.
+Ten blog powstał między innymi po to, aby opisywać tego typu narzędzia inżynierskie. SolidWorks to program do komputerowego wspomagania projektowania (CAD, Computer-Aided Design), szeroko stosowany w inżynierii mechanicznej, m.in. w przemyśle elektroenergetycznym.
 
 Ten wpis to krótki „getting started” (pierwsze kroki): materiały szkoleniowe, certyfikacja i egzaminy.
 
