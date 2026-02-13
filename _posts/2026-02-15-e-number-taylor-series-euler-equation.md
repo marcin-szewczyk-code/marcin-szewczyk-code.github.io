@@ -27,8 +27,8 @@ $$
 W przypadku funkcji elementarnych kolejne pochodne $f^{(n)}(0)$ we wzorze Taylora obliczane są zgodnie ze znanymi wzorami:
 
 $$
-\frac{\mathrm{d}}{\mathrm{d}x}e^x = e^x,
-\frac{\mathrm{d}}{\mathrm{d}x}\cos{x} =-\sin{x},
+\frac{\mathrm{d}}{\mathrm{d}x}e^x = e^x,\:\:\:
+\frac{\mathrm{d}}{\mathrm{d}x}\cos{x} =-\sin{x},\:\:\:
 \frac{\mathrm{d}}{\mathrm{d}x}\sin{x} = \cos{x}.
 $$
 
