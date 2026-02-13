@@ -4,7 +4,6 @@ post_id: e-number-one-million-digits
 date: 2026-02-16 07:00:00 +0100
 categories: [Mathematics]
 tags: [math, e, taylor-series, c, gmp]
-pin: true
 ---
 
 ## Szereg Taylora funkcji $e^x$
