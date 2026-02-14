@@ -1,10 +1,10 @@
 # marcin-szewczyk-code.github.io
 
-Personal landing page for:
+Repository for the personal landing page available at:
 
 [https://marcinszewczyk.net](https://marcinszewczyk.net)
 
-This repository contains a minimal static site deployed via GitHub Pages.
+This repository hosts a minimal static site deployed via GitHub Pages.
 
 It serves as a central entry point linking to selected online resources.
 
