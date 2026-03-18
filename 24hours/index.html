@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>24 Hours of Wild Poland</title>
+  <style>
+    :root {
+      --bg: #f2f2f2;
+      --text: #222222;
+      --muted: #666666;
+      --line: #dddddd;
+      --max: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .hero {
+      min-height: 72vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      line-height: 1.02;
+      font-weight: 400;
+      letter-spacing: -0.03em;
+    }
+
+    .tagline {
+      max-width: 620px;
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin: 0 0 20px;
+    }
+
+    .hero-note {
+      max-width: 620px;
+      font-size: 1rem;
+      color: var(--muted);
+      margin: 0 0 40px;
+    }
+
+    .project-link {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .project-link:hover {
+      border-bottom-color: var(--muted);
+    }
+
+    section {
+      padding: 44px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 22px;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0 0 16px;
+      max-width: 760px;
+    }
+
+    .coming-soon {
+      color: var(--muted);
+    }
+
+    footer {
+      padding-top: 44px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding-top: 32px;
+      }
+
+      .hero {
+        min-height: 60vh;
+      }
+
+      .tagline,
+      .hero-note {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero" style="border-top: none;">
+      <h1>24 Hours of Wild Poland</h1>
+      <p class="tagline">
+        These recordings are for presence, not for active listening.
+      </p>
+      <p class="hero-note">
+        These recordings are made wherever life takes me.
+        Each landscape is captured for 24 hours in real time.
+      </p>
+      <a class="project-link" href="https://marcinszewczyk.net/24hours">
+        marcinszewczyk.net/24hours
+      </a>
+    </section>
+
+    <section>
+      <h2>About the Project</h2>
+      <p>
+        This project is meant to be experienced as something different from active listening.
+      </p>
+      <p>
+        Each recording lasts 24 hours and follows the natural rhythm of a place.
+        It is not a composition. Nothing is shortened or rearranged.
+      </p>
+      <p>
+        These recordings are meant to be present rather than listened to.
+        They can be left playing in the background, gradually revealing change over time.
+      </p>
+      <p>
+        What may seem uneventful at first may become meaningful with time.
+      </p>
+    </section>
+
+    <section>
+      <h2>First Recordings</h2>
+      <p class="coming-soon">
+        The first recordings will be released in 2026.
+      </p>
+      <p class="coming-soon">
+        The project begins with a first series recorded across different natural environments in Poland.
+      </p>
+    </section>
+
+    <section>
+      <h2>Credits</h2>
+      <p>
+        Field recordings by Marcin Szewczyk and The Family.
+      </p>
+      <p>
+        Recorded in various natural environments across Poland.
+      </p>
+    </section>
+
+    <footer>
+      <p>marcinszewczyk.net/24hours</p>
+    </footer>
+  </main>
+</body>
+</html>
