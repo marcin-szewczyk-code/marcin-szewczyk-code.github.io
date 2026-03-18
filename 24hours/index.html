@@ -8,7 +8,6 @@
     :root {
       --bg: #f2f2f2;
       --text: #222222;
-      --muted: #666666;
       --line: #dddddd;
       --max: 820px;
     }
@@ -32,21 +31,28 @@
     .wrap {
       max-width: var(--max);
       margin: 0 auto;
-      padding: 48px 24px 80px;
+      padding: 24px 24px 64px;
     }
 
     .hero {
-      min-height: 72vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: flex-start;
+      padding: 18px 0 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
     h1 {
       margin: 0 0 24px;
-      font-size: clamp(2.5rem, 7vw, 5rem);
-      line-height: 1.02;
+      font-size: clamp(2.1rem, 5.2vw, 3.8rem);
+      line-height: 1.04;
       font-weight: 400;
       letter-spacing: -0.03em;
     }
@@ -54,34 +60,37 @@
     .tagline {
       max-width: 620px;
       font-size: 1.1rem;
-      color: var(--muted);
-      margin: 0 0 40px;
+      margin: 0 0 20px;
     }
 
-    .project-link {
-      margin-top: 12px;
-      font-size: 0.95rem;
-      color: var(--muted);
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    .project-link:hover {
-      border-bottom-color: var(--muted);
+    .hero-note {
+      max-width: 620px;
+      font-size: 1rem;
+      margin: 0;
     }
 
     section {
-      padding: 44px 0;
+      padding-top: 24px;
+      padding-bottom: 24px;
       border-top: 1px solid var(--line);
     }
 
+    a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+a:hover {
+  border-bottom-color: rgba(0,0,0,0.6);
+}
+
     h2 {
-      margin: 0 0 22px;
+      margin: 0 0 16px;
       font-size: 1rem;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--muted);
     }
 
     p {
@@ -89,66 +98,37 @@
       max-width: 760px;
     }
 
-    .player {
-      margin-top: 10px;
-    }
-
-    audio {
-      width: 100%;
-      margin-top: 12px;
-    }
-
-    .recordings {
-      display: grid;
-      gap: 18px;
-    }
-
-    .recording {
-      padding: 0;
-    }
-
-    .recording-title {
-      font-size: 1.1rem;
-      margin-bottom: 4px;
-    }
-
-    .recording-meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 8px;
-    }
-
-    .recording a,
-    .buy-link {
-      color: var(--text);
-      text-decoration: none;
-      border-bottom: 1px solid var(--text);
-    }
-
-    .recording a:hover,
-    .buy-link:hover {
-      color: var(--muted);
-      border-bottom-color: var(--muted);
-    }
-
     footer {
-      padding-top: 44px;
+      padding-top: 24px;
       border-top: 1px solid var(--line);
-      color: var(--muted);
       font-size: 0.95rem;
+    }
+
+    .footer-meta {
+      margin-top: 8px;
     }
 
     @media (max-width: 640px) {
       .wrap {
-        padding-top: 32px;
+        padding: 20px 20px 56px;
       }
 
       .hero {
-        min-height: 60vh;
+        padding: 14px 0 18px;
       }
 
-      .tagline {
+      .tagline,
+      .hero-note {
         font-size: 1rem;
+      }
+
+      section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      footer {
+        padding-top: 20px;
       }
     }
   </style>
@@ -156,66 +136,49 @@
 <body>
   <main class="wrap">
     <section class="hero" style="border-top: none;">
+      <p class="eyebrow">Project Pre-launch</p>
       <h1>24 Hours of Wild Poland</h1>
       <p class="tagline">
         24-hour field recordings following the natural rhythm of places.
-        These recordings are for presence, not for active listening.
-              </p>
-      <a class="project-link" href="https://marcinszewczyk.net/24hours">
-        marcinszewczyk.net/24hours
-      </a>
-    </section>
-
-    <section>
-      <h2>Sample Recording</h2>
-      <div class="player">
-        <p>Białowieża Forest — April 2026</p>
-        <audio controls>
-          <source src="sample-bialowieza-forest.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-      </div>
+      </p>
+      <p class="hero-note">
+        Not for active listening, but for presence.
+      </p>
     </section>
 
     <section>
       <h2>About the Project</h2>
       <p>
-        This project is meant to be experienced as something different from active listening.
+        This is a project of 24-hour field recordings in a natural environment in Poland.
       </p>
       <p>
-        Each recording lasts 24 hours and follows the natural rhythm of a place.
+        The recordings are divided into hourly segments, starting at 12:00 and ending at 12:00 the next day.
+      </p>
+      <p>
         It is not a composition. Nothing is shortened or rearranged.
       </p>
       <p>
-        These recordings are meant to be present rather than listened to.
-        They can be left playing in the background, gradually revealing change over time.
+        They can be left playing in the background, revealing change over time. You can start at any point, or at the corresponding hour to match real time.
       </p>
       <p>
-        What may seem uneventful at first may become meaningful with time.
+        Some parts may seem uneventful at first, but may become meaningful with time.
       </p>
+  </section>
+
+    <section>
+      <h2>Listening</h2>
+      <p>
+        The recordings will be published on music distribution platforms and on a
+        <a href="https://www.youtube.com/@24hourswild">YouTube channel</a>.
+      </p>
+
     </section>
 
     <section>
-      <h2>Recordings</h2>
-      <div class="recordings">
-        <article class="recording">
-          <div class="recording-title">Białowieża Forest</div>
-          <div class="recording-meta">April 2026</div>
-          <a href="#">Listen / Buy</a>
-        </article>
-
-        <article class="recording">
-          <div class="recording-title">Biebrza Wetlands</div>
-          <div class="recording-meta">June 2026</div>
-          <a href="#">Listen / Buy</a>
-        </article>
-
-        <article class="recording">
-          <div class="recording-title">Baltic Sea</div>
-          <div class="recording-meta">August 2026</div>
-          <a href="#">Listen / Buy</a>
-        </article>
-      </div>
+      <h2>First Recordings</h2>
+      <p>
+        The first recordings will be released in 2026.
+      </p>
     </section>
 
     <section>
@@ -228,11 +191,13 @@
       </p>
     </section>
 
-    <footer>
-      <p>marcinszewczyk.net/24hours</p>
-    </footer>
-  </main>
+<footer>
+  <p>
+    <a href="https://www.youtube.com/@24hourswild">YouTube</a>
+  </p>
+  <p class="footer-meta">Pre-launch · 18 March 2026</p>
+  <p>marcinszewczyk.net/24hours</p>
+  <p>© 2026 Marcin Szewczyk</p>
+</footer>  </main>
 </body>
 </html>
-
-
